@@ -1,0 +1,74 @@
+/* HyperLinks */
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style to get the Footer at the end of the page */
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 26, 26);
+    color: whitesmoke;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.index {
+    flex: 1;
+}
+
+/* General */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Top Image */
+
+.top-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+
+.top-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Assets/emcatBannerWithoutBackground.png');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 90%;
+}
+
+/* Footer */
+.copyright-div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(19, 19, 19);
+    padding-bottom: 15px;
+}
+
+.owner,.rights,.copyright {
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+}

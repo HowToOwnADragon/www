@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="title" content="How to Own a Dragon">
+    <meta name="description" content="Welcome to the Main Page of How to Own a Dragon, A Minecraft Forge Mod">
+    <meta name="keywords" content="HTOAD, How to Own a Dragon, Minecraft, Mod">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="How to Own a Dragon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Specify everything the code needs to read for index.html to function properly-->
+    <link rel="stylesheet" href="Index.css">
+    <script src="Index.js"></script>
+    <script src="HTML-Handlers/Register.js"></script>
+    <script src="HTML-Handlers/Login.js"></script>
+
+    <!-- Title + Logo of the page (seen as text in the tab at the top of the screen in a browser)-->
+    <title>How to Own a Dragon</title>
+    <link rel="icon" href="Assets/Logo/Logo.png" type="image/png">
+
+</head>
+
+<body>
+    <!-- This Div has all the content except the Footer-->
+    <div class="index">
+
+        <!--The top of the page! -->
+        <div class="hamburger-menu-div" style="padding-top: 20px;">
+            <a target="_blank" style="display: flex; justify-content: center; align-items: center; background-size: cover; background-position: center;">
+                <img width="30%" height="90%" alt="HTOAD Banner" src="Assets/Banner/BannerWithoutBackground.png">
+            </a>
+            <a style="position: absolute; top: 0; left: 0;" onclick="createRegisterPage()">
+                <img height="85px" alt="Pop Up Button" src="Assets/Button/HamburgerMenu.png">
+            </a>
+        </div>
+
+        <!--This Div has all Buttons -->
+        <div class="button">
+            <a target="_blank" href="https://www.curseforge.com/minecraft/mc-mods/how-to-own-a-dragon"
+                style="margin-bottom: 50px; margin-left: 20px; margin-right: 20px;">
+                <img width="120px" height="120px" alt="CurseForge Button" src="Assets/Button/DownloadButton.png">
+            </a>
+            <a target="_blank" href="#" onclick="IndexToWiki()"
+                style="margin-bottom: 50px; margin-left: 20px; margin-right: 40px;">
+                <img width="120px" height="120px" alt="Wiki Button" src="Assets/Button/WikiButton.png">
+            </a>
+            <a target="_blank" href="https://discord.gg/how-to-own-a-dragon-1120022058601029652">
+                <img width="150px" height="150px" alt="Discord Button" src="Assets/Button/DiscordLogoButton.png">
+            </a>
+            <a target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=2PANEFNC4FUHU"
+                style="margin-bottom: 50px; margin-left: 40px; margin-right: 20px;">
+                <img width="120px" height="120px" alt="Donate Button" src="Assets/Button/DonateButton.png">
+            </a>
+            <a target="_blank" href="#" style="margin-bottom: 50px; margin-left: 20px; margin-right: 20px;">
+                <img width="120px" height="120px" alt="About Us Button" src="Assets/Button/AboutUsButton.png">
+            </a>
+        </div>
+
+        <!--This </div> is to close the index Div-->
+    </div>
+
+    <!--Copyright Footer-->
+    <footer>
+        <div class="copyright-div">
+            <p class="copyright"> Copyright &copy; 2023-2024</p>
+            <p class="owner">How to Own a Dragon</p>
+            <p class="rights">All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
